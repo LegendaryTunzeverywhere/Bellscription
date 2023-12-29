@@ -102,4 +102,38 @@ node . wallet sync
 You can vi or nano into your ```.wallet.json``` copy your privatekey and download [Bells Wallet](https://github.com/Nintondo/extension/releases/tag/0.0.7)
 import the wallet to track transactio coming and out of the wallet when you make the inscription commands.
 
-# 4. 
+# 4. Time to Mint
+* create a .txt file using Vim. ```vim bells.txt``` copy and input the inscription data into the buffer.
+```
+{"p":"bel-20","op":"mint","tick":"BELL","amt":"1000"}
+```
+*press esc, : , x and enter. to save the file*
+
+
+* create a .txt file using Vim. ```vim pepe.txt``` copy and input the inscription data into the buffer.
+```
+{"p":"bel-20","op":"mint","tick":"PEPE","amt":"1000"}
+```
+*press esc, : , x and enter. to save the file*
+
+* * create a .txt file using Vim. ```vim nook.txt``` copy and input the inscription data into the buffer.
+```
+{"p":"bel-20","op":"mint","tick":"nook","amt":"500000000"}
+```
+*press esc, : , x and enter. to save the file*
+
+# 6. Minting using the CLI
+* To mint the above data you need to use the line command in this format
+```
+node . mint <Wallet you want to mint on> <name of file.txt> <amount of times to mint>
+```
+
+* To mint nook max mint 5 times, all i need to do is.
+```
+node . mint BNMNxjJMrWfqouAoiwTmTGK9qy5rFqat8G nook.txt 5
+```
+
+Good Luck, wait for more update and data to inscribe.
+Leave a star and follow.
+
+
