@@ -85,7 +85,7 @@ npm install
 After a successful installation. send 👇👇👇
 
 ```
-node . wallet sync
+node . wallet new
 ```
 *This will create a wallet and create a file name ```.wallet.json``` in the directory, this contains your wallet address and private-key
 so guide it jealously.*
