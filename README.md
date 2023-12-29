@@ -122,7 +122,7 @@ import the wallet to track transactio coming and out of the wallet when you make
 ```
 *press esc, : , x and enter. to save the file*
 
-# 6. Minting using the CLI
+# 5. Minting using the CLI
 * To mint the above data you need to use the line command in this format
 ```
 node . mint <Wallet you want to mint on> <name of file.txt> <amount of times to mint>
